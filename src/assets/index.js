@@ -63,7 +63,6 @@ export {
   starbucks,
   tesla,
   carrent,
-  jobit,
   tripguide,
   nextjs,
   solidity,
