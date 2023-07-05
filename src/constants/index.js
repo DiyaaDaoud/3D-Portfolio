@@ -174,7 +174,7 @@ const testimonials = [
   },
 ];
 
-const projects = [
+const webprojects = [
   {
     name: "Car Gallery",
     description:
@@ -197,5 +197,39 @@ const projects = [
     source_code_link: "https://github.com/DiyaaDaoud/Car-Gallery",
   },
 ];
+const web3projects = [
+  {
+    name: "Block Shake",
+    description:
+      "A decentralized social media app using Lens protocol on Mumbai testnet. it allows login and sign up to Lens, exploring, posting, commenting, sharing, and collectng publications",
+    tags: [
+      {
+        name: "Next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Lens",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Chakra",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "ThirdWeb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/DiyaaDaoud/Car-Gallery",
+  },
+];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  webprojects,
+  web3projects,
+};

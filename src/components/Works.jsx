@@ -3,7 +3,7 @@ import { SectionWrapper } from "../hoc";
 import { motion } from "framer-motion";
 import { styles } from "../style";
 import { fadeIn, textVariant } from "../utils/motion";
-import { projects } from "../constants";
+import { web3projects, webprojects } from "../constants";
 import { Tilt } from "react-tilt";
 import { github } from "../assets";
 
@@ -82,7 +82,7 @@ const Works = () => {
         </motion.p>
       </div>
       <div className="flex flex-wrap gap-7 mt-20">
-        {projects.map((project, index) => (
+        {web3projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
@@ -102,7 +102,7 @@ const Works = () => {
         </motion.p>
       </div>
       <div className="flex flex-wrap gap-7 mt-20">
-        {projects.map((project, index) => (
+        {webprojects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
