@@ -70,4 +70,5 @@ export {
   hardhat,
   graphql,
   moralis,
+  blockshake,
 };
