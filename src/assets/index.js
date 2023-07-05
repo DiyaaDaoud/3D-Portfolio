@@ -63,7 +63,6 @@ export {
   starbucks,
   tesla,
   carrent,
-  tripguide,
   nextjs,
   solidity,
   hardhat,

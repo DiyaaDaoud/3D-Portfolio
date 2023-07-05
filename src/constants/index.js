@@ -18,6 +18,7 @@ import {
   hardhat,
   graphql,
   moralis,
+  blockshake,
 } from "../assets";
 
 export const navLinks = [
@@ -210,8 +211,8 @@ const web3projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/DiyaaDaoud/Car-Gallery",
+    image: blockshake,
+    source_code_link: "https://github.com/DiyaaDaoud/Blocj-Shake-New-Version",
   },
 ];
 
