@@ -19,6 +19,7 @@ import {
   graphql,
   moralis,
   blockshake,
+  uniswapdex,
 } from "../assets";
 
 export const navLinks = [
@@ -213,6 +214,31 @@ const web3projects = [
     ],
     image: blockshake,
     source_code_link: "https://github.com/DiyaaDaoud/Blocj-Shake-New-Version",
+  },
+  {
+    name: "Uniswap 2.0 DEX",
+    description:
+      "A Dex Dapp built on top of Uniswap 2.0 smart contracts, to make liquidity pools contracts between our friendly tokens: Diyaa Gold (DG), Diyaa Silver (DS), Shiba Inu Diyaa Version (SHIBDV), and the famous Wrapped Ether (WETH). ",
+    tags: [
+      {
+        name: "CRANQ",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Uniswap V2.0",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: uniswapdex,
+    source_code_link: "https://github.com/DiyaaDaoud/Uniswap-DEX/tree/main",
   },
 ];
 

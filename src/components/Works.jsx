@@ -98,7 +98,8 @@ const Works = () => {
         >
           Folowing projects showcases my skills and exreience in Front-end Web
           applications. Each project is vriefly described with links code
-          repositories.
+          repositories. Side note: Each web3 project above can be in this
+          category as they are ful stack DApps
         </motion.p>
       </div>
       <div className="flex flex-wrap gap-7 mt-20">

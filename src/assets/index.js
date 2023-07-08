@@ -34,6 +34,7 @@ import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import blockshake from "./blockshake.png";
+import uniswapdex from "./uniswap-dex.png";
 
 export {
   logo,
@@ -69,4 +70,5 @@ export {
   graphql,
   moralis,
   blockshake,
+  uniswapdex,
 };
