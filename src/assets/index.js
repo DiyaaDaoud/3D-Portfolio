@@ -35,6 +35,7 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import blockshake from "./blockshake.png";
 import uniswapdex from "./uniswap-dex.png";
+import camapignfunding from "./campaignfunding.png";
 
 export {
   logo,
@@ -71,4 +72,5 @@ export {
   moralis,
   blockshake,
   uniswapdex,
+  camapignfunding,
 };

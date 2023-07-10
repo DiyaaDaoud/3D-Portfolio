@@ -20,6 +20,7 @@ import {
   moralis,
   blockshake,
   uniswapdex,
+  camapignfunding,
 } from "../assets";
 
 export const navLinks = [
@@ -239,6 +240,35 @@ const web3projects = [
     ],
     image: uniswapdex,
     source_code_link: "https://github.com/DiyaaDaoud/Uniswap-DEX/tree/main",
+  },
+  {
+    name: "Campaign Funding",
+    description:
+      "A full-stack dApp that allows users to create a campaign with its name, story, the goal amount, and the deadline. Users can explore campaigns and send ETH to them after connecting thier wallets",
+    tags: [
+      {
+        name: "Solidity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Hardhat",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "ThirdWeb/ cli/ SDK/ react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: camapignfunding,
+    source_code_link: "https://github.com/DiyaaDaoud/Campaig-Funding/tree/main",
   },
 ];
 
