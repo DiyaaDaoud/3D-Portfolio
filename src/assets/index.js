@@ -36,6 +36,7 @@ import carrent from "./carrent.png";
 import blockshake from "./blockshake.png";
 import uniswapdex from "./uniswap-dex.png";
 import camapignfunding from "./campaignfunding.png";
+import shirtdesign from "./shirtdesign.png";
 
 export {
   logo,
@@ -73,4 +74,5 @@ export {
   blockshake,
   uniswapdex,
   camapignfunding,
+  shirtdesign,
 };

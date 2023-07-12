@@ -21,6 +21,7 @@ import {
   blockshake,
   uniswapdex,
   camapignfunding,
+  shirtdesign,
 } from "../assets";
 
 export const navLinks = [
@@ -188,6 +189,36 @@ const webprojects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/DiyaaDaoud/Car-Gallery",
+  },
+  {
+    name: "3D shirt design with AI",
+    description:
+      "A website UI that allows users to design thir shirts, colors, logos, and get help from openAI",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Three Js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "openAI",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "framer-motion",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind CSS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: shirtdesign,
+    source_code_link:
+      "https://github.com/DiyaaDaoud/3D-AI-Shirt-Design/tree/main",
   },
 ];
 const web3projects = [
