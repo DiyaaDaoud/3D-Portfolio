@@ -22,6 +22,7 @@ import {
   uniswapdex,
   camapignfunding,
   shirtdesign,
+  dalle,
 } from "../assets";
 
 export const navLinks = [
@@ -204,7 +205,7 @@ const webprojects = [
         color: "green-text-gradient",
       },
       {
-        name: "openAI",
+        name: "OpenAI",
         color: "pink-text-gradient",
       },
       {
@@ -219,6 +220,35 @@ const webprojects = [
     image: shirtdesign,
     source_code_link:
       "https://github.com/DiyaaDaoud/3D-AI-Shirt-Design/tree/main",
+  },
+  {
+    name: "DALL-E Clone: AI image generater",
+    description:
+      "A React app that communicates with OpenAI's famous project, DALL-E, so users can generate stunning images and share them on our website",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "OpenAI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Mongo DB",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Cloudinry",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind CSS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: dalle,
+    source_code_link: "https://github.com/DiyaaDaoud/DALL-E-Clone/tree/main",
   },
 ];
 const web3projects = [

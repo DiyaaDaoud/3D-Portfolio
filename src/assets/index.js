@@ -37,6 +37,7 @@ import blockshake from "./blockshake.png";
 import uniswapdex from "./uniswap-dex.png";
 import camapignfunding from "./campaignfunding.png";
 import shirtdesign from "./shirtdesign.png";
+import dalle from "./dalle.png";
 
 export {
   logo,
@@ -75,4 +76,5 @@ export {
   uniswapdex,
   camapignfunding,
   shirtdesign,
+  dalle,
 };
