@@ -231,20 +231,28 @@ const webprojects = [
         color: "blue-text-gradient",
       },
       {
-        name: "OpenAI",
+        name: "Node JS",
         color: "green-text-gradient",
       },
       {
-        name: "Mongo DB",
+        name: "OpenAI",
         color: "pink-text-gradient",
       },
       {
-        name: "Cloudinry",
+        name: "Mongo DB",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind CSS",
+        name: "Cloudinry",
         color: "green-text-gradient",
+      },
+      {
+        name: "tailwind CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "blue-text-gradient",
       },
     ],
     image: dalle,
